@@ -1,6 +1,6 @@
 # Sentiment Analysis for Amazon Fashion Reviews
 
-This code performs sentiment analysis on a dataset of Amazon Fashion reviews using the VADER SentimentIntensityAnalyzer. It calculates the number of positive, negative, and neutral reviews and prints the results.
+This script performs sentiment analysis on a dataset of Amazon Fashion reviews using the VADER SentimentIntensityAnalyzer. It calculates the number of positive, negative, and neutral reviews and prints the results.
 
 ## Requirements
 - Python 3.x
@@ -9,7 +9,9 @@ This code performs sentiment analysis on a dataset of Amazon Fashion reviews usi
 ## How to Use
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required `vaderSentiment` package by running `pip install vaderSentiment`.
-3. Place the Amazon Fashion reviews dataset in a file named `AMAZON_FASHION.json.gz` in the same directory as this script.
+3. Download the Amazon Fashion reviews dataset from the following link:
+   [https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/categoryFiles/AMAZON_FASHION.json.gz](https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/categoryFiles/AMAZON_FASHION.json.gz)
+4. Save the downloaded file as `AMAZON_FASHION.json.gz` in the `data` directory located in the same directory as this script.
 
 ## Code Description
 The script consists of three main functions:
